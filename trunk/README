@@ -1,0 +1,14 @@
+wicd-qt: a Qt frontend for the wicd daemon.
+
+It's still very buggy!
+
+This requires the following:
+
+* A running daemon from wicd 1.4.1 (may include it here in the future)
+
+* A working PyQt 4
+
+Run "sh build_res.sh" to compile the UI files and icons.
+Then run "python wicd.py" and it should appear in your tray. 
+Click on the tray icon to see the main window.
+

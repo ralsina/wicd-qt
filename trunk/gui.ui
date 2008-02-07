@@ -1,0 +1,230 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Network Configuration</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="icons.qrc" >:/network_connected_wlan.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" >
+    <item>
+     <widget class="QSplitter" name="splitter" >
+      <property name="orientation" >
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QListWidget" name="netlist" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="iconSize" >
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QToolBox" name="toolBox" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+         <horstretch>3</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="currentIndex" >
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>315</width>
+          <height>340</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Information</string>
+        </attribute>
+        <layout class="QVBoxLayout" >
+         <item>
+          <widget class="netWidget" native="1" name="netWidget" />
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_2" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Advanced</string>
+        </attribute>
+        <layout class="QVBoxLayout" >
+         <item>
+          <widget class="advWidget" native="1" name="advWidget" />
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_4" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>315</width>
+          <height>340</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Encription</string>
+        </attribute>
+        <layout class="QVBoxLayout" >
+         <item>
+          <widget class="encrWidget" native="1" name="encrWidget" />
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_3" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>96</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Scripts</string>
+        </attribute>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <widget class="QToolBar" name="toolBar" >
+   <property name="windowTitle" >
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea" >
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak" >
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNetwork" />
+   <addaction name="actionConnect" />
+   <addaction name="actionDisconnect" />
+   <addaction name="actionConnecting" />
+   <addaction name="actionRefresh" />
+   <addaction name="actionPreferences" />
+   <addaction name="actionQuit" />
+  </widget>
+  <action name="actionRefresh" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/reload.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionNetwork" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/networking_section.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>network</string>
+   </property>
+  </action>
+  <action name="actionPreferences" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/tool_preferences.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>preferences</string>
+   </property>
+  </action>
+  <action name="actionQuit" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/exit.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>quit</string>
+   </property>
+  </action>
+  <action name="actionDisconnect" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/connect_no.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>disconnect</string>
+   </property>
+   <property name="visible" >
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionConnect" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/connect_established.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>Connect</string>
+   </property>
+   <property name="visible" >
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionConnecting" >
+   <property name="icon" >
+    <iconset resource="icons.qrc" >:/connect_creating.svg</iconset>
+   </property>
+   <property name="text" >
+    <string>Connecting</string>
+   </property>
+   <property name="visible" >
+    <bool>false</bool>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>netWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>advWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>encrWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons.qrc" />
+ </resources>
+ <connections/>
+</ui>

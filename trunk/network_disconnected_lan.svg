@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="162.5"
+   height="162.5"
+   id="svg101">
+  <defs
+     id="defs16" />
+  <path
+     d="M 14.1732,191.939 C 17.7165,191.939 57.2466,191.939 70.8661,191.939 C 70.8661,191.939 70.8661,128.16 70.8661,128.16 C 70.8661,128.16 106.299,128.16 113.386,128.16 C 113.386,128.16 113.386,191.939 113.386,191.939 C 127.891,191.939 164.764,191.939 170.079,191.939 C 170.079,174.223 170.079,92.7267 170.079,78.5534 C 162.992,71.4668 141.732,50.207 134.646,43.1204 C 134.646,28.9471 134.646,14.7739 134.646,0.600681 C 127.559,0.600681 120.472,0.600681 113.386,0.600681 C 113.386,7.6873 113.386,14.7739 113.386,28.9471 C 106.299,21.8605 99.2126,14.7739 92.126,7.6873 C 56.6929,36.0338 35.4331,57.2936 14.1732,78.5534 C 14.1732,99.8133 14.1732,170.679 14.1732,191.939 z "
+     transform="matrix(0.404566,0,0,0.404566,1.789605,5.745335)"
+     style="font-size:12px;fill:#f0f0f8;fill-opacity:0.19607795;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:16.17650032;stroke-linecap:round;stroke-linejoin:round"
+     id="path171" />
+  <g
+     style="font-size:12px"
+     id="g999">
+    <ellipse
+       cx="80.742188"
+       cy="80.742188"
+       rx="59.921875"
+       ry="59.921875"
+       transform="matrix(0.453744,0,0,0.453744,90.65639,77.70153)"
+       style="fill:#f0f0f8;fill-opacity:0.19607795;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:15.52630043;stroke-linecap:round;stroke-linejoin:round"
+       id="path137" />
+    <path
+       d="M 118.8731,126.9662 C 93.37575,147.9995 55.6622,144.4143 34.58461,118.9536 C 13.50701,93.49285 17.02647,55.77312 42.45047,34.65123"
+       transform="matrix(0.616135,0,0,0.616135,77.54443,64.58957)"
+       style="fill:none;fill-opacity:0.19607795;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:11.43410015;stroke-linecap:round;stroke-linejoin:round"
+       id="path138" />
+    <path
+       d="M 35.5468,5.07813 L 49.7656,20.8203"
+       transform="matrix(0.563596,0,0,0.563596,72.62807,76.27292)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+       id="path139" />
+    <path
+       d="M 138.633,120.86 L 152.852,138.125"
+       transform="matrix(0.563596,0,0,0.563596,71.48329,76.27292)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+       id="path140" />
+    <path
+       d="M 84.2969,133.047 L 81.25,146.25"
+       transform="matrix(0.563596,0,0,0.563596,71.48329,76.27292)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+       id="path141" />
+    <path
+       d="M 43.6719,106.133 L 31.9922,114.765"
+       transform="matrix(0.563596,0,0,0.563596,71.48329,76.27292)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+       id="path142" />
+    <path
+       d="M 34.0234,61.9531 L 18.7891,60.4297"
+       transform="matrix(0.563596,0,0,0.563596,71.48329,76.27292)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+       id="path143" />
+    <ellipse
+       cx="18.027344"
+       cy="150.56641"
+       rx="12.441406"
+       ry="12.441406"
+       transform="matrix(0.657468,0,0,0.657468,103.4923,16.20376)"
+       style="fill:#f0f0f8;fill-opacity:0.19607795;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:3.75"
+       id="path573" />
+    <ellipse
+       cx="18.027344"
+       cy="150.56641"
+       rx="12.441406"
+       ry="12.441406"
+       transform="matrix(0.657468,0,0,0.657468,128.5326,16.20376)"
+       style="fill:#f0f0f8;fill-opacity:0.19607795;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:3.75"
+       id="path574" />
+    <path
+       d="M 44.6875,142.188 C 44.6875,142.188 69.5703,142.188 69.5703,142.188"
+       transform="matrix(0.657468,0,0,0.657468,90.13742,21.87952)"
+       style="fill:none;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round"
+       id="path575" />
+  </g>
+  <path
+     d="M 9.670311,152.3207 L 153.1981,10.8288"
+     style="font-size:12px;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#4a4b4f;stroke-width:12.5;stroke-linecap:round;stroke-linejoin:round"
+     id="path881" />
+</svg>
