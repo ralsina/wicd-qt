@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>connect_creating.svg</file>
+        <file>connect_established.svg</file>
+        <file>connect_no.svg</file>
+        <file>exit.svg</file>
+        <file>network_connected_lan.svg</file>
+        <file>network_connected_wlan.svg</file>
+        <file>network_disconnected_lan.svg</file>
+        <file>network_disconnected_wlan.svg</file>
+        <file>networking_section.svg</file>
+        <file>reload.svg</file>
+        <file>tool_preferences.svg</file>
+    </qresource>
+</RCC>
