@@ -175,7 +175,11 @@ class Gui(QtGui.QMainWindow):
     self.ui.netWidget.ui.mode.setText("Mode: %s"%item.props['mode'])
     self.ui.netWidget.ui.encryption.setText("Encryption: %s"%enc)
     self.ui.netWidget.ui.channel.setText("Channel: %s"%item.props['channel'])
-    self.ui.netWidget.ui.auto.setChecked(item.props['automatic'])
+    if item.props['automatic']:
+      self.ui.netWidget.ui.auto.setChecked(True)
+    else:
+      self.ui.netWidget.ui.auto.setChecked(False)
+      
     
     # Set crypto info
     if item.props['encryption']:
